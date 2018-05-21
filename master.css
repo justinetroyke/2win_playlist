@@ -1,0 +1,97 @@
+/* Create three equal columns that floats next to each other */
+.column {
+float: left;
+width: 23%;
+padding: 10px;
+height: 350px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+.links a {
+  font-family: Arial, Helvetica, sans-serif;
+  color: blue;
+}
+
+p {font-size: 28px;
+  color: white;
+}
+
+.body p {
+  font-size: 28px;
+  color: black;
+}
+
+header {
+  background: black;
+  font-size: 15px;
+  padding: 60px;
+}
+
+div.image1 {
+  background-image: url('./images/Deadpool-920x584.jpg');
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+}
+
+div.image2 {
+  background-image: url('./images/deadpool-movie-wallpaper-background-On-High-Resolution-Wallpaper.jpg');
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+}
+
+div.image3 {
+  background-image: url('./images/download.jpeg');
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+}
+
+div.image4 {
+  background-image: url('./images/deadpool.png');
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+}
+
+div.image5 {
+  background-image: url('./images/deadpool-thumbsup.png');
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+}
+
+div.image6 {
+  background-image: url('./images/images (1).jpeg');
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+}
+
+div.image7 {
+  background-image: url('./images/Deadpool-International-Poster.jpg');
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+}
+
+div.image8 {
+  background-image: url('./images/images (2).jpeg');
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+}
